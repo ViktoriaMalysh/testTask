@@ -1,0 +1,55 @@
+.components{
+  display: grid;
+  padding-top: 10%;
+  grid-template-columns: 1fr 1fr 250px 1fr 100px 1fr 1fr 1fr 1fr;
+  grid-template-areas: ". . left left . right right right .";
+  background-color: rgba(243, 243, 243, 0.548);
+  height: 65em;
+}
+
+.left-component{
+  margin-top: 2em;
+  grid-area: left;
+}
+
+.right-component{
+  grid-area: right;
+}
+
+.myfirstcard{
+  margin-left: 0.7em;
+}
+
+.span-currency{
+  color: black;
+}
+
+.p-title{
+  font-size: 20px;
+  color: gray;
+  margin-bottom: 2em;
+}
+
+.labelfirst{
+  background-color: blue;
+  margin-right: 3em;
+}
+
+.h-title{
+  font-size: 35px;
+  font-weight: 900; 
+}
+
+.icon_block{
+  border-radius: 7px;
+}  
+
+.span-description{
+  font-size: 18px;
+  color: gray;
+  margin-bottom: 2em;
+}
+
+.pad{
+  margin-bottom: 0.5em;
+}
